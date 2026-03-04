@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.quranAdhkarApp",
+      "sha256_cert_fingerprints": [
+        "02:E9:B6:62:33:06:19:E3:09:EC:D6:D9:E0:3B:88:01:D9:72:49:D2:0A:02:3C:E9:65:9E:CD:DA:0B:85:67:71",
+        "EE:F6:21:9C:56:75:8C:27:12:40:4E:FC:FA:7A:07:69:86:ED:0E:BC:A9:F7:04:4B:E8:C6:29:BA:F4:3F:6D:17"
+      ]
+    }
+  }
+]
