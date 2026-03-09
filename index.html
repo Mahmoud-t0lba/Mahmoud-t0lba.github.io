@@ -1,22 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Quran Adhkar Links</title>
+    <title>روابط القرآن والأذكار</title>
     <script>
-      (function redirectToLanding() {
+      (function redirectToArabicLanding() {
         const targetBase = "https://mahmoud-t0lba.github.io/moshaf_app/";
-        const query = window.location.search || "";
-        const hash = window.location.hash || "";
-        window.location.replace(`${targetBase}${query}${hash}`);
+        const url = new URL(targetBase);
+
+        const currentParams = new URLSearchParams(window.location.search || "");
+        currentParams.set("lang", "ar");
+
+        url.search = currentParams.toString();
+        url.hash = window.location.hash || "";
+
+        window.location.replace(url.toString());
       })();
     </script>
   </head>
   <body>
     <p>
-      Redirecting to
-      <a href="https://mahmoud-t0lba.github.io/moshaf_app/">Quran Adhkar landing</a>
+      جارٍ التحويل إلى
+      <a href="https://mahmoud-t0lba.github.io/moshaf_app/?lang=ar">صفحة القرآن والأذكار العربية</a>
       ...
     </p>
   </body>
