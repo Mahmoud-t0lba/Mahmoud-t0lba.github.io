@@ -1,14 +1,16 @@
 [
   {
     "relation": [
-      "delegate_permission/common.handle_all_urls"
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
     ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.quranAdhkarApp",
       "sha256_cert_fingerprints": [
         "02:E9:B6:62:33:06:19:E3:09:EC:D6:D9:E0:3B:88:01:D9:72:49:D2:0A:02:3C:E9:65:9E:CD:DA:0B:85:67:71",
-        "EE:F6:21:9C:56:75:8C:27:12:40:4E:FC:FA:7A:07:69:86:ED:0E:BC:A9:F7:04:4B:E8:C6:29:BA:F4:3F:6D:17"
+        "EE:F6:21:9C:56:75:8C:27:12:40:4E:FC:FA:7A:07:69:86:ED:0E:BC:A9:F7:04:4B:E8:C6:29:BA:F4:3F:6D:17",
+        "9B:3E:02:5C:01:51:78:15:DD:7C:64:0B:7B:D3:00:17:9B:31:3B:B0:C7:B0:12:B7:B5:A6:0F:BE:D4:FD:97:F8"
       ]
     }
   }
