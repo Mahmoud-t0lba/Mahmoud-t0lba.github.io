@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahmoud-t0lba.github.io/moshaf_app/sitemap.xml

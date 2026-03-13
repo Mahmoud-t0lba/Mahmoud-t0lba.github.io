@@ -10,8 +10,7 @@
         const url = new URL(targetBase);
 
         const currentParams = new URLSearchParams(window.location.search || "");
-        currentParams.set("lang", "ar");
-
+        currentParams.delete("lang");
         url.search = currentParams.toString();
         url.hash = window.location.hash || "";
 
@@ -19,13 +18,13 @@
       })();
     </script>
     <noscript>
-      <meta http-equiv="refresh" content="0;url=https://mahmoud-t0lba.github.io/moshaf_app/?lang=ar" />
+      <meta http-equiv="refresh" content="0;url=https://mahmoud-t0lba.github.io/moshaf_app/" />
     </noscript>
   </head>
   <body>
     <p>
       جارٍ التحويل إلى
-      <a href="https://mahmoud-t0lba.github.io/moshaf_app/?lang=ar">النسخة العربية من صفحة القرآن والأذكار</a>
+      <a href="https://mahmoud-t0lba.github.io/moshaf_app/">النسخة العربية من صفحة القرآن والأذكار</a>
     </p>
   </body>
 </html>
